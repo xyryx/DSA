@@ -1,6 +1,10 @@
 ﻿namespace DSA.MinHeap
 {
-    public class MinHeap<T> where T : IComparable
+    /// <summary>
+	/// Binary Tree where the root node has the minimum key in the tree
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
+	public class MinHeap<T> where T : IComparable
 	{
 		protected T[] _items;
 		protected int _capacity;
